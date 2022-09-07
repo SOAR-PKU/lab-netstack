@@ -57,9 +57,9 @@ Run all unit tests.
 
 Use a filter to run only the tests we specified.
 
-``
+```
 (cd build && ./runUnitTests '--gtest_filter=SocketSessionTest.*')
-``
+```
 
 ### Optional: Code Formatting
 
