@@ -15,8 +15,8 @@ void ListenDispatcher::onReceivePacket(char *buffer, size_t length,
                                        IPAddress destination) {
   std::unique_ptr<Segment> segment =
       Segment::parse(source, destination, buffer, length);
-  SocketAddress &to = segment->destination_;
-  SocketAddress &from = segment->source_;
+  SocketAddress to = segment->destination_;
+  SocketAddress from = segment->source_;
 
   SocketStruct *st;
   if ((st = lookupSession(to)) == nullptr) {
