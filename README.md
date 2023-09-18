@@ -201,4 +201,4 @@ You should submit your project in an archive named `lab[1|2|3]-[your name]-[your
 - a directory named `checkpoint/` containing your texts, images, videos, or typescript files for each checkpoint.
 
 For each submission, please send an email with the title `lab[1|2|3] Name StudentID`
-to zhouyuhan@pku.edu.cn. Missing the deadlines incurs a penalty.
+to altrialist@stu.pku.edu.cn. Missing the deadlines incurs a penalty.
